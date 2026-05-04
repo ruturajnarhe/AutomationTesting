@@ -64,7 +64,7 @@ public class StaticTable {
 			String price = driver.findElement(By.xpath("//table[@name='BookTable']//tr["+i+"]//td[4]")).getText();
 			total += Integer.parseInt(price);
 		}
-		System.out.println("Total price of the books : " + total);
+		System.out.println("Total price of the books : " + total); // 7100
 	}
 
 }
